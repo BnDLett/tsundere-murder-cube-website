@@ -1,0 +1,36 @@
+#main{
+    color:white;
+    margin-top:10px;
+    background-color:rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius:2px;
+    text-align: center;
+}
+body{
+    background-image: url(TMC\ Background.png);
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+#menuBar{
+    border: 1px solid white;
+    background-color:rgba(0, 0, 0, 0.65);
+    height: 23px;
+    width: 103%;
+    margin-left: -1.5%;
+    text-align: center;
+    position: fixed;
+}
+#mButton{
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 19px;
+    color:white;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+#mButton:hover{
+    background-color: rgb(0, 100, 194);
+    padding-left: 5px;
+    padding-right: 5px;
+}

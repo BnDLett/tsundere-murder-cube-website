@@ -18,6 +18,9 @@ def isOpen(ip, port):
 @app.route("/")
 def home():
     return render_template("index.html")
+@app.route("/commands")
+def commands():
+    return render_template("commands.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=80)
